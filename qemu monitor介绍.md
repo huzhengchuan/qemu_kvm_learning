@@ -38,3 +38,9 @@ QEMU monitor是QEMU与实现用户交互的一种控制台，在该控制台可�
 		* `info roms` 显示客户机使用的BIOS等ROM文件的信息
 		* `info vnc` 当前客户机vnc状态
 		* `info history` 历史命令执行记录
+	* commit 提交修改变化到硬盘文件中
+	* cont/stop 恢复/暂停虚拟机运行
+	* change 改变设备配置 change vnc localhost:2 
+	* balloon 改变分配给客户机的内存大小
+	* device_add/device_del 动态添加或移除设备
+	* 
