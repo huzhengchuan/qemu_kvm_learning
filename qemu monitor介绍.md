@@ -43,4 +43,4 @@ QEMU monitor是QEMU与实现用户交互的一种控制台，在该控制台可�
 	* change 改变设备配置 change vnc localhost:2 
 	* balloon 改变分配给客户机的内存大小
 	* device_add/device_del 动态添加或移除设备
-	* 
+	* mgration
