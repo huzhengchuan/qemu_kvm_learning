@@ -3,7 +3,7 @@
 QEMU monitor是QEMU与实现用户交互的一种控制台，在该控制台可以使用复杂的命令实现对客户机的操作。
 
 
-* monitor启动  
+* monitor启动 
   1. 在显示的qemu窗口中，“Ctrl+Alt+2”组合键可以切换到QEMU monitor中，在monitor窗口中输入“Ctrl+Alt+1”可以回到客户机标准显示窗口。
   2. monitor重定向功能:-monitor dev 将monitor重定向到宿主机的dev设备上，dev的取值类型可以有一下几种：
 		* vc 虚拟控制台 默认模式，启动窗口
